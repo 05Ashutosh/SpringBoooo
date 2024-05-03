@@ -1,0 +1,21 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "version": "latest",
+            "moby": true
+  },
+  "ghcr.io/devcontainers/features/java:1": {
+            "version": "latest",
+            "moby": true
+  },
+  "ghcr.io/itsmechlark/features/postgresql:1": {
+            "version": "latest",
+            "moby": true
+  },
+  "ghcr.io/devcontainers-contrib/features/springboot-sdkman:2": {
+            "version": "latest",
+            "moby": true
+  }
+}
